@@ -1,4 +1,3 @@
-# Online Music Store Data Analysis
 Overview
 This project aims to analyze the data of an online music store to uncover insights about sales, customer behavior, and trends in music preferences. The analysis will help the store understand its business growth and make data-driven decisions for future strategies.
 
@@ -17,7 +16,10 @@ Database Schema
 ![MusicDatabaseSchema](https://github.com/user-attachments/assets/74767db7-7ff3-438b-a0b8-df812643d447)
 
 
+
 The database schema consists of several interconnected tables:
+
+
 Artists: Contains unique IDs and names for each artist.
 Albums: Contains album details, including the artist ID, which links to the Artists table.
 Tracks: Details each track, its album, genre, and media type.
