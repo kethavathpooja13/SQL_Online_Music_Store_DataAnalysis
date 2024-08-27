@@ -12,10 +12,12 @@ Analyzing sales trends over time to gauge the store's growth.
 Tools and Technologies Used
 Database: PostgreSQL
 SQL Client: PgAdmin4
-![MusicDatabaseSchema](https://github.com/user-attachments/assets/74767db7-7ff3-438b-a0b8-df812643d447)
 Database Schema
-The database schema consists of several interconnected tables:
 
+![MusicDatabaseSchema](https://github.com/user-attachments/assets/74767db7-7ff3-438b-a0b8-df812643d447)
+
+
+The database schema consists of several interconnected tables:
 Artists: Contains unique IDs and names for each artist.
 Albums: Contains album details, including the artist ID, which links to the Artists table.
 Tracks: Details each track, its album, genre, and media type.
